@@ -1,0 +1,6 @@
+# IntelliJ IDEA settings
+.idea/
+*.iml
+
+# Compiled code
+out/
