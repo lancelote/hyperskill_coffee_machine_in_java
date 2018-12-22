@@ -4,7 +4,7 @@
 
 ## TOC
 
-- [ ] Stage 1: Make a coffee
+- [x] Stage 1: Make a coffee
 - [ ] Stage 2: Count needed resources
 - [ ] Stage 3: Check if there are enough resources
 - [ ] Stage 4: Choosing different actions
