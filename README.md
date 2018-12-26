@@ -5,7 +5,7 @@
 ## TOC
 
 - [x] Stage 1: Make a coffee
-- [ ] Stage 2: Count needed resources
+- [x] Stage 2: Count needed resources
 - [ ] Stage 3: Check if there are enough resources
 - [ ] Stage 4: Choosing different actions
 - [ ] Stage 5: Creating main loop
