@@ -12,6 +12,15 @@ public class Main {
 
 class Robot {
 
+    private int x;
+    private int y;
+    private Direction direction = Direction.UP;
+
+    public Robot(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
     public static void moveRobot(Robot robot, int toX, int toY) {
         Direction directionX;
         Direction directionY;
@@ -46,15 +55,15 @@ class Robot {
     }
 
     public Direction getDirection() {
-        // current direction
+        return this.direction;
     }
 
     public int getX() {
-        // current X coordinate
+        return this.x;
     }
 
     public int getY() {
-        // current Y o
+        return this.y;
     }
 
     public void turnLeft() {
