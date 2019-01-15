@@ -50,6 +50,10 @@ class CoffeeMachine {
         ready();
     }
 
+    void stop() {
+        this.state = State.SHUTDOWN;
+    }
+
     private void ready() {
         this.state = State.READY;
         System.out.println();
@@ -61,27 +65,7 @@ class CoffeeMachine {
 
         switch (this.state) {
             case READY:
-                System.out.println();
-                switch (input) {
-                    case "buy":
-                        buy();
-                        break;
-                    case "fill":
-                        fill();
-                        break;
-                    case "take":
-                        take();
-                        break;
-                    case "remaining":
-                        printRemaining();
-                        break;
-                    case "exit":
-                        this.state = State.SHUTDOWN;
-                        break;
-                    default:
-                        System.out.println("Unknown command");
-                        break;
-                }
+                processReadyCommand();
                 break;
             case WATER_INPUT:
             case MILK_INPUT:
@@ -95,6 +79,30 @@ class CoffeeMachine {
             default:
                 System.out.println("Unknown input state");
                 ready();
+                break;
+        }
+    }
+
+    private void processReadyCommand() {
+        System.out.println();
+        switch (input) {
+            case "buy":
+                buy();
+                break;
+            case "fill":
+                fill();
+                break;
+            case "take":
+                take();
+                break;
+            case "remaining":
+                printRemaining();
+                break;
+            case "exit":
+                stop();
+                break;
+            default:
+                System.out.println("Unknown command");
                 break;
         }
     }
