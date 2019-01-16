@@ -1,6 +1,6 @@
 # hyperskill_coffee_machine_in_java
 
-[Coffee Machine in Java](https://hyperskill.org/projects/7) course from [Hyperskill](https://hyperskill.org/).
+[Coffee Machine in Java](https://hyperskill.org/projects/7) project from [Hyperskill](https://hyperskill.org/).
 
 ## TOC
 
