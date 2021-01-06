@@ -2,20 +2,7 @@ package stage3.project;
 
 import java.util.Scanner;
 
-/**
- * A real coffee machine never has an infinite supply of water, milk, or coffee beans. And if you input a really big
- * number, it’s almost certain that a real coffee machine wouldn't have the supplies needed to make all that coffee.
- * <p>
- * In this stage, you need to improve the previous program. Now you need to input amounts of water, milk, and coffee
- * beans that your coffee machine has at the moment.
- * <p>
- * If the coffee machine has enough supplies to make the specified amount of coffee, the program should print
- * "Yes, I can make that amount of coffee". If the coffee machine can make more than that, the program should output
- * "Yes, I can make that amount of coffee (and even N more than that)", where N is the number of additional cups of
- * coffee that the coffee machine can make. If the amount of resources is not enough to make the specified amount of
- * coffee, the program should output "No, I can make only N cup(s) of coffee".
- */
-public class Main {
+public class CoffeeMachine {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
