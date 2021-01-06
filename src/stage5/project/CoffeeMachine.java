@@ -2,7 +2,7 @@ package stage5.project;
 
 import java.util.Scanner;
 
-public class Main {
+public class CoffeeMachine {
 
     /**
      * Print to stdin the given amount of resources
