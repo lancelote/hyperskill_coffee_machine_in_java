@@ -4,9 +4,9 @@
 
 ## TOC
 
-- [x] Stage 1: Make a coffee
-- [x] Stage 2: Count needed resources
-- [x] Stage 3: Check if there are enough resources
-- [x] Stage 4: Choosing different actions
-- [x] Stage 5: Creating main loop
-- [x] Stage 6: Processing coffee machine states
+- [x] Stage 1: Making coffee
+- [x] Stage 2: Ingredient calculator
+- [x] Stage 3: Estimate the number of servings
+- [x] Stage 4: Buy, fill, take!
+- [x] Stage 5: Keep track of the supplies
+- [x] Stage 6: Brush up your code
