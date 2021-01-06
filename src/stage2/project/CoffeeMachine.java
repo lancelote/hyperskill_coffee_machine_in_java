@@ -2,7 +2,7 @@ package stage2.project;
 
 import java.util.Scanner;
 
-public class Main {
+public class CoffeeMachine {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Write how many cups of coffee you will need: ");
