@@ -2,7 +2,7 @@ package stage4.project;
 
 import java.util.Scanner;
 
-public class Main {
+public class CoffeeMachine {
 
     public static void print(int water, int milk, int beans, int cups, int money) {
         System.out.println("The coffee machine has:");
@@ -72,7 +72,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int water = 1200;
+        int water = 400;
         int milk = 540;
         int beans = 120;
         int cups = 9;
