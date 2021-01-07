@@ -12,19 +12,7 @@ enum State {
     BUY_CHOICE
 }
 
-public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        CoffeeMachine coffeeMachine = new CoffeeMachine(400, 540, 120, 9, 550);
-        coffeeMachine.start();
-
-        while (coffeeMachine.getState() != State.SHUTDOWN) {
-            coffeeMachine.processInput(scanner.next());
-        }
-    }
-}
-
-class CoffeeMachine {
+public class CoffeeMachine {
 
     private int water;
     private int milk;
@@ -247,5 +235,15 @@ class CoffeeMachine {
         }
 
         return enough;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        CoffeeMachine coffeeMachine = new CoffeeMachine(400, 540, 120, 9, 550);
+        coffeeMachine.start();
+
+        while (coffeeMachine.getState() != State.SHUTDOWN) {
+            coffeeMachine.processInput(scanner.next());
+        }
     }
 }
